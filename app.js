@@ -3,7 +3,7 @@ const menu = document.querySelector("#menu");
 const hamtext = document.querySelector("#hamtext");
 const moon = document.querySelector("#moon");
 const body = document.querySelector("body")
-const hLinks = document.querySelectorAll("#hLink");
+// const hLinks = document.querySelectorAll("#hLink");
 
 hamburger.addEventListener("click", ()=>{
     menu.classList.toggle("hidden")
