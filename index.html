@@ -32,13 +32,11 @@
       class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden"
     >
       <!-- navbar -->
-      <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+      <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900 px-6">
         <div class="container mx-auto py-5 flex items-center justify-between">
           <div class="flex items-center gap-2">
             <img class="w-8" src="./IMAGES/logo-p.jpg" alt="" />
-            <span class="text-2xl font-bold text-blue-500 dark:text-blue-500"
-              >phavourCodes</span
-            >
+            <span class="text-2xl font-bold text-blue-500 dark:text-blue-500">phavourCodes</span>
           </div>
           <ul
             class="hidden md:flex space-x-10 text-blue-500 dark:text-black font-bold text-sm uppercase"
@@ -89,9 +87,9 @@
       </nav>
       <!-- introduction section -->
       
-      <!-- animated text -->
+      
       <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
-
+        <!-- animated text -->
         <h1 class="text-4xl font-bold text-blue-500">Hi, I am Ezeliora Godsfavour,</h1>
         <p class="block text-black">a <span id="text" class="text-red-500"></span></p>
           <!-- hire -->
@@ -105,26 +103,25 @@
             <a class="block text-white text-xl px-1 py-1 mx-2 rounded-md font-semibold w-fit "
           href="mailto:ezeliorafavour81@gmail.com">Hire Me</a>
         </button>
-
       </div>
     </div>
     <!-- about section-->
-    <div id="about" class="px-10 dark:bg-slate-900 mt-12">
-      <div class="container mx-auto flex flex-col-reverse px-20 lg:flex-row items-center gap-20">
+    <div id="about" class="lg:px-10 dark:bg-slate-900 mt-12">
+      <div class="container mx-auto flex flex-col-reverse lg:px-20 px-10 lg:flex-row items-center gap-20">
         <!-- left -->
         <div class="relative">
           <div class="h-full w-80 rounded-full overflow-hidden ">
-            <img class="w-80 "  src="./IMAGES/portrait.jpg" alt="" />
+            <img class="w-80" src="./IMAGES/portrait.jpg" alt="" />
           </div>
         </div>
         <!-- right -->
-        <div class="my-auto flex flex-col gap-3 pt-10">
-          <h1 class="font-bold center  text-4xl font-bold text-blue-500 text-center">ABOUT ME</h1>
-          <p class="text-gray-400">
+        <div class=" my-auto flex flex-col gap-3 pt-10 sm:py-20">
+          <h1 class="font-bold text-4xl font-bold text-blue-500 text-center">ABOUT ME</h1>
+          <p class="text-gray-400 text-justify">
             Progressive Frontend Developer with an increasing experience in JavaScript, ReactJs, Bootstrap, Tailwind CSS... I'm passionate about learning new technologies and staying current with industry trends.
             Additionally, as a highly motivated individual, I feel confident that my skill set and dedication will enable me to become an asset to your organization or project.
           </p>
-          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -412,15 +409,13 @@
           </div>
       </div>
     <!-- footer -->
-    <div class="w-full bg-gray-800">
-      <div class="container mx-auto py-5 flex items-center justify-between text-center">
-        <div class="flex items-center gap-2">
+      <div class="bg-gray-800 bottom-0 flex gap-4 flex-col lg:flex-row justify-between lg:px-20 p-6 items-center">
+        <div class="flex gap-2 items-center">
           <img class="w-8" src="./IMAGES/logo-p.jpg" alt="" />
           <span class="text-2xl font-bold text-white">phavourCodes</span>
         </div>
-        <span class="hidden md:block font-medium text-white">©2023 | All Rights Reserved</span>
+        <p class="font-medium text-white">©2023 | All Rights Reserved</p>
       </div>
-    </div>
     <!-- SCRIPT FILES -->
     <script src="./app.js"></script>
     <script src="./autotyping.js"></script>
